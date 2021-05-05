@@ -18,5 +18,8 @@
     <None Include="01 Multiples of 3 and 5.jao">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="02 Even fibonachi numbers.jao">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
