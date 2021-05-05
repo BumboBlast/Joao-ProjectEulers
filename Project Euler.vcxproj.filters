@@ -21,5 +21,8 @@
     <None Include="02 Even fibonachi numbers.jao">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="03 Largest prime factor.jao">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

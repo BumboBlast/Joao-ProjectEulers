@@ -17,3 +17,16 @@ Project Eulers for Joao
 
         Problems:
             -puting numbers in variable names does not work
+
+
+03 Large prime factor
+
+        Problems:
+            -print("this loop happens ", increment, " times\n");
+              this gives the following error: UNTERMINATED STRING
+              oh, "\n" isnt a thing. 
+
+            -issue was caused by '%' requiring both operands to be the same type
+               double % double  as opposed to int % int
+               no error message, just hang infinitley, so I assume its a bug.
+            

@@ -141,6 +141,7 @@
   <ItemGroup>
     <None Include="01 Multiples of 3 and 5.jao" />
     <None Include="02 Even fibonachi numbers.jao" />
+    <None Include="03 Largest prime factor.jao" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

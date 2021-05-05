@@ -1,0 +1,60 @@
+##Largest prime factor
+
+
+
+## The prime factors of 13195 are 5, 7, 13 and 29.
+
+## What is the largest prime factor of the number 600851475143 ?
+
+
+
+## how do i do multiline comments lol
+
+
+
+
+
+
+/largestPrime( x ){
+
+    
+    while (10 == 10){
+         
+        
+        Value old_x = x;
+
+        for (Value divisor = 2.0; divisor < x; divisor = divisor + 1){      ## both operands of '%' need to have matching types
+                                                                            ## :hypergroan:
+            if (x % divisor == 0){
+                
+                
+                print("ahhhhH!!!");
+                x = x / divisor;
+                break;
+            }
+
+            
+
+        }
+
+        if (old_x == x){
+            break;
+        }
+    }
+
+    
+    return x;
+}
+
+
+
+
+
+
+/main(){
+
+    Value bigNum = 600_851_475_143.0;           ##stored as a double
+  
+    
+    print("The largest prime factor of ", bigNum, " is ", largestPrime(bigNum));
+}
