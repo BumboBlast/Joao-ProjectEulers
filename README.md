@@ -30,3 +30,4 @@ Project Eulers for Joao
                double % double  as opposed to int % int
                no error message, just hang infinitley, so I assume its a bug.
             
+            -'>=' and '<=' dont seem to work ):
